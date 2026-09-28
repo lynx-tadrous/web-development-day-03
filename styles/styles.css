@@ -7,6 +7,8 @@ html {
 }
 
 body {
+	max-width: 31.25rem;
+	margin: 0 auto;
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
 	font-weight: 400;
@@ -18,6 +20,27 @@ h2 {
 	color: darkred;
 }
 
+a {
+	color: green;
+}
+
+a:visited {
+	color: #003800;
+}
+
+a:hover,
+a:focus {
+	color: #003800;
+	color: white
+}
+
+a:focus {
+	color: #003800;
+}
+
+a:active {
+	color: #e39645;
+}
 nav li {
 	display: inline-block;
 }
@@ -59,3 +82,4 @@ table {
 	padding-left: 1rem 2rem 3rem 4rem; 
 	margin: 2rem;
 }
+

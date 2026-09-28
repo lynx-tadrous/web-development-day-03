@@ -347,3 +347,25 @@ template {
 [hidden] {
   display: none;
 }
+
+/*fwd add ons*/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+img, 
+video {
+  max-width: 100%;
+  height: auto;
+}
