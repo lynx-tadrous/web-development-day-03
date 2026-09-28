@@ -50,3 +50,12 @@ section.warning {
 table {
 	color: orange;
 }
+
+.section-table {
+	background-color: lightgrey;
+	padding-top: 1rem; 
+	padding-bottom: 3rem;
+	padding-right: 2rem; 
+	padding-left: 1rem 2rem 3rem 4rem; 
+	margin: 2rem;
+}
